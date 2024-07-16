@@ -3,6 +3,7 @@ public class FireMonster extends Monster{
         super(name);
     }
 
+    @Override
     public String attack(){
        return "Attack with fire!";
     }
